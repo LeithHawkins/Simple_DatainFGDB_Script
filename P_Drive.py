@@ -3,14 +3,8 @@ import os
 
 arcpy.env.workspace = "P:\LLS_Data\Working Data\Working_data.gdb"
 
-print "Hello World"
+print "This is not the best song in the world" + "\n" + "But its easy to see one and one make two , two and one make three" + "\n"
 
-# for path, dirs, files in os.walk(top_folder):
-#     for d in dirs:
-#         if not d.endswith(".gdb"):
-#             continue
-#         gdb_path = os.path.join(path, d)
-#         print gdb_path
 datasets = arcpy.ListDatasets(feature_type='feature')
 datasets = [''] + datasets if datasets is not None else []
 
