@@ -5,7 +5,7 @@ arcpy.env.workspace = "P:\LLS_Data\Working Data\Working_data.gdb"
 
 print "This is not the best song in the world" + "\n" + "But its easy to see one and one make two , two and one make three" + "\n"
 
-print 'Justin must bow down to my Supremacy'
+print 'Justin must bow down to my Supremacy because I am awesome '
 
 datasets = arcpy.ListDatasets(feature_type='feature')
 datasets = [''] + datasets if datasets is not None else []
